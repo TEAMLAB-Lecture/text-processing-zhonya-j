@@ -35,8 +35,9 @@ def normalize(input_string):
     """
     normalized_string = input_string.lower()
     normalized_string=normalized_string.split()
-    for x in normalized_string:
-        x.strip()
+    for i,x in enumerate(normalized_string):
+        if x ==" ":
+            normalized_string[i]=""
     return " ".join(normalized_string)
 
 
@@ -61,6 +62,8 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
+    if input_string =="":
+        return ""
     no_vowel_string = list(input_string)
     for i,s in enumerate(list(input_string)):
         if s in ("a","e","i","o","u"):
@@ -71,4 +74,15 @@ def no_vowels(input_string):
 
 if __name__ == "__main__":
     print(normalize("   EXTRA   SPACE   "))
+    print(normalize("THIS IS ALL CAPS!!"))
+    print(normalize("                   "))
+    print(normalize("this is all lower space..."))
+    print(normalize("  H  e  L    l   O   !"))
+    print(normalize(""))
+    print(normalize("........"))
+    print(normalize("EX  A M P     LE"))
+    print(normalize("Test Text Normalization"))
+    print(normalize("AbCd EfGh IjKl MnOp"))
+
+
     print(no_vowels("This is an example."))
