@@ -66,7 +66,7 @@ def no_vowels(input_string):
         return ""
     no_vowel_string = list(input_string)
     for i,s in enumerate(list(input_string)):
-        if s in ("a","e","i","o","u"):
+        if s in ("a","e","i","o","u","A","E","I","O","U"):
             no_vowel_string[i]=""
     return "".join(no_vowel_string)
 
@@ -86,3 +86,13 @@ if __name__ == "__main__":
 
 
     print(no_vowels("This is an example."))
+    print(no_vowels("We love Python!"))
+    print(no_vowels("AEIOU"))
+    print(no_vowels("aeiou"))
+    print(no_vowels("QWERTY"))
+    print(no_vowels("qwerty"))
+    print(no_vowels("AI for ALL!"))
+    print(no_vowels("Are there any vowels?"))
+    print(no_vowels(""))
+    print(no_vowels("abcdefghijklmnopqrstuvwxyz"))
+    
