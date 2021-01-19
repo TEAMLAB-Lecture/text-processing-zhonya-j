@@ -72,27 +72,27 @@ def no_vowels(input_string):
 
 
 
-if __name__ == "__main__":
-    print(normalize("   EXTRA   SPACE   "))
-    print(normalize("THIS IS ALL CAPS!!"))
-    print(normalize("                   "))
-    print(normalize("this is all lower space..."))
-    print(normalize("  H  e  L    l   O   !"))
-    print(normalize(""))
-    print(normalize("........"))
-    print(normalize("EX  A M P     LE"))
-    print(normalize("Test Text Normalization"))
-    print(normalize("AbCd EfGh IjKl MnOp"))
+# if __name__ == "__main__":
+#     print(normalize("   EXTRA   SPACE   "))
+#     print(normalize("THIS IS ALL CAPS!!"))
+#     print(normalize("                   "))
+#     print(normalize("this is all lower space..."))
+#     print(normalize("  H  e  L    l   O   !"))
+#     print(normalize(""))
+#     print(normalize("........"))
+#     print(normalize("EX  A M P     LE"))
+#     print(normalize("Test Text Normalization"))
+#     print(normalize("AbCd EfGh IjKl MnOp"))
 
 
-    print(no_vowels("This is an example."))
-    print(no_vowels("We love Python!"))
-    print(no_vowels("AEIOU"))
-    print(no_vowels("aeiou"))
-    print(no_vowels("QWERTY"))
-    print(no_vowels("qwerty"))
-    print(no_vowels("AI for ALL!"))
-    print(no_vowels("Are there any vowels?"))
-    print(no_vowels(""))
-    print(no_vowels("abcdefghijklmnopqrstuvwxyz"))
+#     print(no_vowels("This is an example."))
+#     print(no_vowels("We love Python!"))
+#     print(no_vowels("AEIOU"))
+#     print(no_vowels("aeiou"))
+#     print(no_vowels("QWERTY"))
+#     print(no_vowels("qwerty"))
+#     print(no_vowels("AI for ALL!"))
+#     print(no_vowels("Are there any vowels?"))
+#     print(no_vowels(""))
+#     print(no_vowels("abcdefghijklmnopqrstuvwxyz"))
     
