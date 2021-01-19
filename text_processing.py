@@ -71,7 +71,6 @@ def no_vowels(input_string):
     return "".join(no_vowel_string)
 
 
-
 # if __name__ == "__main__":
 #     print(normalize("   EXTRA   SPACE   "))
 #     print(normalize("THIS IS ALL CAPS!!"))
